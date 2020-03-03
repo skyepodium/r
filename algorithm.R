@@ -288,4 +288,18 @@ for(i in 1:30){
 }
 
 
+ab <- 1
+ab
+ab <- 1:4
 
+? matrix
+
+ab <- matrix(1:15, ncol=3, byrow=TRUE)
+ab
+? plot
+? boxplot
+boxplot(ab)
+plot(ab[,2], ab[,3])
+
+
+is.na(ab)
