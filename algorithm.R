@@ -303,3 +303,9 @@ plot(ab[,2], ab[,3])
 
 
 is.na(ab)
+
+ab
+
+for(i in ab){
+  print(i)        
+}
